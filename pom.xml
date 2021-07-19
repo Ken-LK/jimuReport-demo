@@ -23,6 +23,11 @@
         </dependency>
 
         <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-actuator</artifactId>
+        </dependency>
+
+        <dependency>
             <groupId>mysql</groupId>
             <artifactId>mysql-connector-java</artifactId>
             <scope>runtime</scope>
@@ -43,6 +48,15 @@
             <artifactId>jimureport-spring-boot-starter</artifactId>
             <version>1.3.64-beta</version>
         </dependency>
+
+        <!-- https://mvnrepository.com/artifact/com.github.jsonzou/jmockdata -->
+        <dependency>
+            <groupId>com.github.jsonzou</groupId>
+            <artifactId>jmockdata</artifactId>
+            <version>4.3.0</version>
+        </dependency>
+
+
 
     </dependencies>
 

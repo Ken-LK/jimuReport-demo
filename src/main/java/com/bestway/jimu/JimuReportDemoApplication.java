@@ -3,7 +3,7 @@ package com.bestway.jimu;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
-@SpringBootApplication(scanBasePackages = {"org.jeecg.modules.jmreport"})
+@SpringBootApplication(scanBasePackages = {"org.jeecg.modules.jmreport","com.bestway.jimu"})
 public class JimuReportDemoApplication {
 
     public static void main(String[] args) {

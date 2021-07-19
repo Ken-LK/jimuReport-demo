@@ -25,3 +25,10 @@ spring:
       connection-timeout: 20000
       # 测试sql
       connection-test-query: select 1
+
+management:
+  endpoints:
+    web:
+      #base-path: /management
+      exposure:
+        include: "*"
